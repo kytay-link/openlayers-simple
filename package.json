@@ -1,0 +1,31 @@
+{
+  "name": "openlayers-simple",
+  "version": "1.0.0",
+  "description": "A simple openlayers example.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --mode production && browser-sync start --server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kytay-link/openlayers-simple.git"
+  },
+  "keywords": [
+    "openlayers",
+    "nodejs"
+  ],
+  "author": "noreply@kytay.link",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kytay-link/openlayers-simple/issues"
+  },
+  "homepage": "https://github.com/kytay-link/openlayers-simple#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "css-loader": "^5.0.1",
+    "ol": "^6.4.3",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

@@ -1,2 +1,5 @@
 # openlayers-simple
- Simple example for OpenLayers 6.4+
+ 
+## How it looks:
+
+![Image of what it does](doc/asset/screenshot-0.png)
